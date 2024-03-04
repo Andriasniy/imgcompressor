@@ -1,5 +1,5 @@
 {
-  "name": "imgcompressor",
+  "name": "imagecompressor",
   "version": "1.0.0",
   "description": "Image compression tool",
   "main": "./src/index.js",
