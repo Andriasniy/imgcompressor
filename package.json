@@ -1,0 +1,31 @@
+{
+  "name": "imgcompressor",
+  "version": "1.0.0",
+  "description": "Image compression tool",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Andriasniy/imgcompressor.git"
+  },
+  "keywords": [
+    "image",
+    "compression",
+    "imagemin",
+    "jpg",
+    "png",
+    "gif",
+    "svg"
+  ],
+  "author": "Andriasniy",
+  "license": "ISC",
+  "dependencies": {
+    "imagemin": "^8.0.0",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-pngquant": "^10.0.0",
+    "imagemin-svgo": "^9.0.0"
+  }
+}
