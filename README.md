@@ -7,13 +7,13 @@ imagecompress is a lightweight image compression tool for Node.js applications. 
 You can install imagecompress via npm:
 
 ```bash
-npm install imagecompress
+npm install imgecompress
 ```
 
 ## Usage
 
 ```javascript
-const { compressImages } = require('imagecompress');
+const { compressImages } = require('imgecompress');
 
 // Compress images from input directory to output directory
 compressImages('./input_images', './output_images')
