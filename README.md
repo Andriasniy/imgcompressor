@@ -1,25 +1,25 @@
-# ImgCompressor
+# ImageCompressor
 
-ImgCompressor is a lightweight image compression tool for Node.js applications. It utilizes popular image optimization plugins to reduce the file size of JPEG, PNG, GIF, and SVG images.
+ImageCompressor is a lightweight image compression tool for Node.js applications. It utilizes popular image optimization plugins to reduce the file size of JPEG, PNG, GIF, and SVG images.
 
 ## Installation
 
-You can install ImgCompressor via npm:
+You can install ImageCompressor via npm:
 
-```bash
-npm install imgcompressor
-```
+\`\`\`bash
+npm install imagecompressor
+\`\`\`
 
 ## Usage
 
-```javascript
-const { compressImages } = require('imgcompressor');
+\`\`\`javascript
+const { compressImages } = require('imagecompressor');
 
 // Compress images from input directory to output directory
 compressImages('./input_images', './output_images')
   .then(() => console.log('Images compressed successfully'))
   .catch(error => console.error('Error compressing images:', error));
-```
+\`\`\`
 
 ## Features
 
